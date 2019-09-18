@@ -7,7 +7,7 @@ kernel.
 # How to use
 
 Note that for this to work, the kernel headers are bind-mounted from the host to the container. Therefore, you
-need to install the according headers on the host system (e.g., `yum install kernel-devel`).
+need to install the according headers on the host system (e.g., `yum update -y; yum install kernel-devel -y; reboot`).
 
 LINBIT provides containers that can directly install pre-built kernel modules on the host without
 compiling/the requirement to have kernel headers installed.
